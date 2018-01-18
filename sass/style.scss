@@ -1,0 +1,52 @@
+$back-color: #074270;
+$txt-color: #C8DDED;
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $back-color;
+	color: $txt-color;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+
+.box {
+	width: 80%;
+	margin: 0 auto;
+	min-height: 300px;
+	.quote, .author {
+		width: 70%;
+		min-height: 100px;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+}
+
+.scnd {
+	width: 80%;
+	margin: 0 auto;
+	min-height: 200px;
+	.trigger, a {
+		width: 25%;
+		display: block;
+		margin: 0 auto;
+		height: 40px;
+		margin-top: 25px;
+		background-color: $back-color;
+		color: $txt-color;
+		border: 1px solid #fff;
+		text-decoration: none;
+		text-align: center;
+		font-size: 24px;
+	}
+	a {
+		line-height: 40px;
+	}
+}
+
