@@ -18,7 +18,10 @@ h1 {
     width: 70%;
     min-height: 100px;
     margin: 0 auto;
-    margin-top: 50px; }
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 30px;
+    color: orange; }
 
 .scnd {
   width: 80%;
